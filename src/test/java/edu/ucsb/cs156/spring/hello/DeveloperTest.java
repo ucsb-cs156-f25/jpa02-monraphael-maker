@@ -22,13 +22,23 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-f25-teams>
         assertEquals("Mon F.", Developer.getName());
     }
 
     @Test
     public void getGithubId_returns_correct_githubId() {
         assertEquals("monraphael-maker", Developer.getGithubId());
+    }
+
+    @Test
+    public void getTeam_returns_team_with_correct_name() {
+        Team  t = Developer.getTeam();
+        assertEquals("f25-05", t.getName());
+        assertTrue(t.getMembers().contains("Brian S."), "Team should contain Brian S.");
+        assertTrue(t.getMembers().contains("Hechenjin Y."), "Team should contain Hechenjin Y.");
+        assertTrue(t.getMembers().contains("Jasmine T."), "Team should contain Jasmine T.");
+        assertTrue(t.getMembers().contains("Kennedy N."), "Team should contain Kennedy N.");
+        assertTrue(t.getMembers().contains("Melvin M."), "Team should contain Melvin M.");
+        assertTrue(t.getMembers().contains("Mon F."), "Team should contain Mon F.");
     }
 }
