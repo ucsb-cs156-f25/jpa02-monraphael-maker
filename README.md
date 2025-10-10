@@ -1,9 +1,8 @@
 # jpa02-monraphael-maker
 
-Repo: [https://ucsb-cs156-f25/STARTER-jpa02](https://github.com/ucsb-cs156-f25/jpa02-monraphael-maker)
+Repo: https://github.com/ucsb-cs156-f25/jpa02-monraphael-maker
 
-Deployed at: [https://jpa02-replace-me.dokku-xx.cs.ucsb.edu
-](https://jpa02-monraphael-maker.dokku-05.cs.ucsb.edu/)
+Deployed at: https://jpa02-monraphael-maker.dokku-05.cs.ucsb.edu/
 
 # About this repo
 
