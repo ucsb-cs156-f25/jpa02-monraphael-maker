@@ -60,6 +60,15 @@ public class TeamTest {
     }
 
     @Test
+    public void case3_equals_functions_correctly_F() {
+        Team team1 = new Team("test-team");
+        team1.addMember("Alice");
+        Team team2 = new Team("error-team");
+        team2.addMember("Bob");
+        assertFalse(team1.equals(team2));
+    }
+
+    @Test
     public void HashCode_functions_correctly() {
         // instantiate t as a Team object
         Team t = new Team();
